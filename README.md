@@ -19,8 +19,6 @@ The following examples are provided:
 
 * **simple_twr_initiator / simple_twr_responder**: Basic TWR application.
 
-* **ble_lorawan_AT_commands**: Example of LoRaWan AT commands set.
-
 * **simple_uwb_rx**: Set DW1000 in receive mode.
 
 * **simple_uwb_tx**: "Hello world" transmission in UWB.

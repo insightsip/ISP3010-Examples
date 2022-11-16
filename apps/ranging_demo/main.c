@@ -45,7 +45,7 @@
 #endif
 
 #define MANUFACTURER_NAME               "Insight SiP"                           /**< Manufacturer. Will be passed to Device Information Service. */
-#define FW_REVISION                     "1.1.0"                                 /**< Version. Will be passed to Device Information Service. */
+#define FW_REVISION                     "1.1.1"                                 /**< Version. Will be passed to Device Information Service. */
 
 #define APP_ADV_INTERVAL                1000                                     /**< The advertising interval (in units of 0.625 ms). */
 #define APP_ADV_DURATION                0                                       /**< The advertising duration in units of 10 milliseconds. */

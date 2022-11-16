@@ -77,7 +77,9 @@
     </folder>
     <folder Name="nRF_Segger_RTT">
       <file file_name="../../../../nRF5_SDK_15.3.0_59ac345/external/segger_rtt/SEGGER_RTT.c" />
-      <file file_name="../../../../nRF5_SDK_15.3.0_59ac345/external/segger_rtt/SEGGER_RTT_Syscalls_SES.c" />
+      <file file_name="../../../../nRF5_SDK_15.3.0_59ac345/external/segger_rtt/SEGGER_RTT_Syscalls_SES.c">
+        <configuration Name="Debug" build_exclude_from_build="Yes" />
+      </file>
       <file file_name="../../../../nRF5_SDK_15.3.0_59ac345/external/segger_rtt/SEGGER_RTT_printf.c" />
     </folder>
     <folder Name="None">
@@ -98,4 +100,5 @@
     Name="Debug"
     c_preprocessor_definitions="DEBUG; DEBUG_NRF"
     gcc_optimization_level="None" />
+  <configuration LIBRARY_IO_TYPE="RTT" Name="Common" />
 </solution>
